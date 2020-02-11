@@ -1,0 +1,97 @@
+/* Custom Style */
+#app {
+	display: grid;
+	justify-content: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #292929;
+}
+#app .title {
+	text-align: center;
+}
+
+figure img{
+	max-width: 90px;
+	max-height: 90px;
+}
+
+figure {
+	margin: 0;
+}
+
+.avatar {
+	max-width: 20px;
+	max-height: 20px;
+	border-radius: 100%;
+	opacity: 80%;
+}
+
+.vote-card {
+	max-width: 500px;
+	max-height: 200px;
+	min-width: 600px;
+	padding: 1.5em;
+	margin-top: 25px;
+	line-height: 1.5em;
+	background-color: rgb(255, 255, 250);
+	border: 1px rgb(228, 225, 225) solid;
+	border-radius: 3px;
+	display: grid;
+	grid-template-columns: min-content auto 50px;
+	grid-column-gap: 10px;
+}
+
+.vote-card:hover {
+	box-shadow: 2px 2px 2px lightgrey;
+}
+
+.card-title {
+	text-decoration: none;
+	color: rgb(0, 147, 238);
+}
+
+.card-id {
+	border: none;
+	border-radius: 4px;
+	background-color: rgb(228, 229, 230);
+	color: rgb(109, 106, 106);
+	padding: 3px;
+	font-size: 0.6em;
+}
+
+.card-desc {
+	font-weight: lighter;
+	font-size: 0.9em;
+	color: rgb(109, 105, 105);
+}
+
+.submit-section {
+	font-size: 0.8em;
+	color: rgb(173, 170, 170);
+}
+
+.submit-section img {
+	position: absolute;
+	padding: 3px;
+}
+
+.upvote-section i {
+	color: #757474;
+}
+
+.upvote-section i:hover {
+	color: rgb(111, 167, 28);
+}
+
+.upvote-section{
+	cursor: pointer;
+}
+
+.upvote {
+	font-size: 0.8em;
+	color: rgb(0, 147, 238);
+}
+
+.blue-border {
+	border-color: rgb(0, 147, 238);
+}
+

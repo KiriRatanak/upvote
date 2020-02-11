@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+		<link rel="stylesheet" href="../public/styles.css">
+	</head>
+	<body>
+		<script src="https://unpkg.com/vue"></script>
+		<div id="app">
+			<h2 class="title">{{title}}</h2>
+			<article v-for = "submission in sortedSubmissions" :key="submission.id">
+				<submission-component
+				:submission="submission"
+				:submissions="sortedSubmissions">
+				</submission-component>
+			</article>
+			
+		</div>
+		
+		<script src="./seed.js"></script>
+		<script src="./main.js"></script>
+	</body>
+</html>
